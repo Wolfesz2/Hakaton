@@ -27,12 +27,12 @@ arc7_arc9 = 9
 
 
 for i in range(47):
-    if req_arr[i][3] == "No ice class" or req_arr[i][3] == "Ice1" or req_arr[i][3] == "Ice2" or req_arr[i][3] == "Ice3":
-        req_arr[i][9] = 3
-    elif req_arr[i][3] == "Arc4" or req_arr[i][3] == "Arc5" or req_arr[i][3] == "Arc6":
-        req_arr[i][9] = 6
-    elif req_arr[i][3] == "Arc7" or req_arr[i][3] or req_arr[i][3] == "Arc9":
-        req_arr[i][9] = 9
+    if req_arr[ii][3] == "No ice class" or req_arr[ii][3] == "Ice1" or req_arr[ii][3] == "Ice2" or req_arr[ii][3] == "Ice3":
+        req_arr[ii][9] = 3
+    elif req_arr[ii][3] == "Arc4" or req_arr[ii][3] == "Arc5" or req_arr[ii][3] == "Arc6":
+        req_arr[ii][9] = 6
+    elif req_arr[ii][3] == "Arc7" or req_arr[ii][3] or req_arr[ii][3] == "Arc9":
+        req_arr[ii][9] = 9
     else:
         print("данные о типе судна неправильные")
         print("пример : no ice class, ice[i] , arc[i]")
